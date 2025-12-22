@@ -6,11 +6,11 @@
 #define WIFI_PASS "IoTLab@2025"
 #define WIFI_RESET_BUTTON_PIN 0 
 
-#define MQTT_SERVER     "dev.iotlab.net.vn"
-#define MQTT_FALLBACK_IP "103.221.220.183"
+#define MQTT_SERVER     "Linking_Server(Host name)"
+#define MQTT_FALLBACK_IP "Linking_Server(IP)"
 #define MQTT_PORT  1883
-#define MQTT_USER  "api1@Iotlab"
-#define MQTT_PASS  "Iotlab@2023"
+#define MQTT_USER  "MQTT USER"
+#define MQTT_PASS  "MQTT USER'S PASS"
 #define MQTT_CLIENT_ID  "AIR_GATEWAY_VL" 
 #define MQTT_TOPIC_UP   "ra02/up"     
 #define MQTT_TOPIC_DOWN "ra02/down" 
@@ -32,4 +32,5 @@
 #define LORA_MOSI_PIN   23
 #define LORA_TX_POWER   20   // dBm
 // Kích thước Queue 
+
 #define QUEUE_LORA_OUT_SIZE 10
